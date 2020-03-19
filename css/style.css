@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* 
+======================
+    Basic Typography
+======================
+*/
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 60%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+/* 
+======================
+    Header Area
+======================
+*/
+.header_area{
+    background: #23232e;
+    text-align: center;
+    color: #ffffff;
+    padding: 60px 0 30px 0;
+}
+.logo_area {
+    margin-bottom: 80px;
+}
+.logo_area img{
+    width: 100px;
+    height: auto;
+}
+.header_content h2{
+    text-transform: uppercase;
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+.header_content p{
+    font-size: 18px;
+    margin-bottom: 110px;
+}
+.header_button img{
+    width: 35px;
+    height: auto;
+}
+/* 
+======================
+    Content Area
+======================
+*/
+.content{
+    padding: 80px 0;
+    background-image: url(../images/bg-border.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.content-para {
+    padding-bottom: 60px;
+}
+.content-para p{
+    text-align: center;
+    font-size: 22px;
+    padding: 0px 100px;
+    line-height: 32px;
+    color: #464b4f;
+}
+.content-para .first-para{
+    padding-bottom: 30px;
+}
+.content-heading h2{
+    color: #464b4f;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 60px;
+}
+.about-us{
+    overflow: hidden;
+}
+.about-us h4{
+    color: #464b4f;
+    margin-bottom: 15px;
+}
+.about-us p{
+    color: #888a8b;
+    font-size: 16px;
+    line-height: 25px;
+}
+.col-1-3{
+    width: 31.33%;
+    float: left;
+    overflow: hidden;
+    margin: 0 1%;
+}
+/* 
+======================
+    Portfolio Area
+======================
+*/
+.Portfolio{
+    background-color: #23232e;
+    overflow: hidden;
+    padding: 80px 0;
+}
+.Portfolio h2{
+    color: #ffffff;
+    font-size: 60px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.work-category{
+    margin-bottom: 40px;
+}
+.work-category ul{
+    list-style-type: none;
+    text-align: center;
+}
+.work-category ul li{
+    display: inline-block;
+    padding: 0 25px;
+}
+.work-category ul li a{
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 0;
+}
+.work-category ul li a:hover{
+    border-bottom: 2px solid #7b77c9;
+}
+.work-category ul .current a{
+    border-bottom: 2px solid #7b77c9;
+}
+.col-1-3 img{
+    width: 100%;
+    height: auto;
+}
+.works-column{
+    text-align: center;
+}
+.works-column .col-1-3{
+    margin-bottom: 40px;
+}
+.works-column .col-1-3 h3{
+    font-weight: normal;
+    padding: 10px 0;
+}
+.works-column .col-1-3 h3 a{
+    text-decoration: none;
+    color: #ffffff;
+}
+.works-column .col-1-3 span{
+    color: #6d7590;
+    font-size: 13px;
+}
+.button{
+    text-align: center;
+    margin-top: 50px;
+}
+.button a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #7b77c9;
+    padding: 12px 50px;
+    border-radius: 5px;
+}
+/* 
+======================
+    Photography Area
+======================
+*/
+.photography{
+    padding: 80px 0;
+    background-image: url(../images/bg-border.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.photography h2{
+    text-align: center;
+    color: #464b4f;
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.photography p{
+    font-size: 22px;
+    text-align: center;
+    color: #888a8b;
+    padding: 0 45px 40px 45px;
+}
+.photography-photos{
+    margin-bottom: 30px;
+}
+.photography-photos .col-1-3{
+    padding-bottom: 10px;
+}
+.photography .button2{
+    text-align: center;
+    margin-top: 50px;
+}
+.photography .button2 a{
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #7b77c9;
+    padding: 12px 40px;
+    border-radius: 5px;
+}
+/* 
+======================
+    Subscribe Area
+======================
+*/
+.subscribe{
+    background-color: #23232e;
+    text-align: center;
+    padding: 80px 0;
+    color: #ffffff;
+}
+.subscribe img{
+    width: 70px;
+    height: auto;
+    margin-bottom: 40px;
+}
+.subscribe p{
+    margin-bottom: 40px;
+}
+.subscribe form input{
+    padding: 15px 50px;
+    border: none;
+    border-radius: 5px;
+    font-family: Segoe UI;
+}
+.subscribe form input[type="text"]{
+    margin-right: 5px;
+}
+.subscribe form input[type="submit"]{
+    background-color: #7b77c9;
+    color: #ffffff;
+    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+/* 
+======================
+    Footer Area
+======================
+*/
+.footer-area{
+    padding: 70px 0;
+    background-image: url(../images/bg-border.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #7c7c7c;
+    text-align: center;
+}
+.footer-area .social-share ul{
+    list-style-type: none;
+    margin-bottom: 30px;
+}
+.footer-area .social-share ul li{
+    display: inline-block;
+    padding: 0 15px;
+}
+.footer-area .social-share ul li a{
+    font-size: 30px;
+    color: #7c7c7c;
+}
+.footer-area .copyright p{
+    padding: 5px 0;
+}
